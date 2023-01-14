@@ -1,0 +1,105 @@
+.container-program-works .program-works-content{
+	padding-top: 4rem;
+}
+
+.container-program-works .program-works-content h1{
+	line-height: 1.3;
+	margin-bottom: 2rem;
+	font-family: "raleway-semibold", sans-serif;
+}
+
+.container-program-works .program-works-content p{
+	font-size: 1.1rem;
+	margin-bottom: 0.8rem;
+}
+
+.container-program-works .program-works-content h2{
+	font-size: 1.5rem;
+	margin-bottom: 0.8rem;
+	font-family: "raleway-semibold", sans-serif;
+}
+
+.container-program-works .program-works-content ol{
+	padding-left: 1.1rem;
+	margin-bottom: 0.8rem;
+}
+
+.container-program-works .program-works-content ul{
+	padding-left: 1.1rem;
+	margin-bottom: 0.8rem;
+}
+
+@media all and (min-width: 100px){
+	.container-program-works{
+		padding: 2rem 0;
+	}
+	.container-program-works .program-works-content h1{
+		font-size: 1.5rem;
+	}
+}
+
+@media all and (min-width: 576px){
+	.container-program-works{
+		padding: 3rem 0;
+	}
+	.container-program-works .program-works-content h1{
+		font-size: 1.6rem;
+	}
+}
+
+@media all and (min-width: 768px){
+	.container-program-works{
+		padding: 3.5rem 0;
+	}
+	.container-program-works .program-works-content h1{
+		font-size: 1.8rem;
+	}
+}
+
+@media all and (min-width: 992px){
+	.container-program-works{
+		padding: 4rem 0;
+	}
+	.container-program-works .program-works-content h1{
+		font-size: 2rem;
+	}
+}
+
+@media all and (min-width: 1200px){
+	.container-program-works{
+		padding: 4.5rem 0;
+	}
+	.container-program-works .program-works-content h1{
+		font-size: 2.1rem;
+	}
+}
+
+@media all and (min-width: 1440px){
+	.container-program-works{
+		padding: 5rem 0;
+	}
+	.container-program-works .program-works-content h1{
+		font-size: 2.3rem;
+	}
+}
+
+@media all and (min-width: 1920px){
+	.container-program-works{
+		padding: 6rem 0;
+	}
+	.container-program-works .program-works-content h1{
+		font-size: 2.5rem;
+	}
+}
+
+@media all and (max-width: 767px){
+	.container-program-works .program-works-content h2{
+		font-size: 1.3rem;
+	}
+}
+
+@media all and (max-width: 575px){
+	.container-program-works .program-works-content p{
+		font-size: 1rem;
+	}	
+}
